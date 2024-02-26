@@ -1,0 +1,127 @@
+@media only screen and (min-width : 320px) and (max-width : 480px) {/*--- Mobile portrait ---*/}
+@media only screen and (min-width : 480px) and (max-width : 595px) {/*--- Mobile landscape ---*/}
+@media only screen and (min-width : 595px) and (max-width : 690px) {/*--- Small tablet portrait ---*/}
+@media only screen and (min-width : 690px) and (max-width : 800px) {/*--- Tablet portrait ---*/}
+@media only screen and (min-width : 800px) and (max-width : 1024px) {/*--- Small tablet landscape ---*/}
+@media only screen and (min-width : 1024px) and (max-width : 1224px) {/*--- Tablet landscape --- */}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width:767px) {
+	.header-nav nav {
+		position: fixed;
+		background: #000;
+		width: 100%;
+		height: auo;
+		left: 0;
+		top: 50px;
+		z-index: 9999;
+		transition: all 0.5s ease-in-out;
+		height: 0px;
+		overflow: hidden;
+	}
+	.header-nav ul li {
+		display: block;
+	}
+	.header-nav ul li .submenu li a{
+		color: #000;
+	}
+	.header-nav ul li a {
+		color: #fff;
+		margin-left: 15px;
+	}
+	.header-nav {
+		position: relative;
+	}
+	.nav-menu-icon span {
+		display: block;
+		background: #000;
+		height: 2px;
+		width: 30px;
+		margin: 3px;
+		transition: 0.5s ease-in;
+	}
+	.nav-menu-icon span:hover{
+		cursor: pointer;
+	}
+	.nav-menu-icon {
+		position: absolute;
+		right: 20px;
+	}
+	.logo {
+		margin-top: -10px;
+	}
+	.header-nav nav.mean-menu{
+		height: 200px;
+		overflow: visible;
+	}
+	.submenu li a {
+		display: block;
+		color: #000;
+	}
+	.hero-content-text {
+		margin-top: 100px;
+	}
+	.footer-link-bottom {
+		text-align: center;
+	}
+	.single-widget {
+		margin-top: 20px;
+	}
+	.single-brand {
+		margin-bottom: 10px;
+	}
+	.service-area {
+		padding: 50px 0;
+	}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width:500px) {
+	.hero-content-text h1 {
+		margin-bottom: 30px;
+		font-size: 32px;
+	}
+  
+}
+/* Extra small devices (phones, 600px and down) */
+@media  (max-width: 360px) {
+	
+
+}
+@media (min-width: 768px) and (max-width: 991px)  {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .menu-toggle-control {
+	width: 100%;
+	display: none;
+}
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  .single-product-view-slider-wrapper.owl-theme .owl-dots .owl-dot {
+	width: 65px;
+	margin: 4px;
+	height: 65px;
+}
+.slide-dots-img-wrapper ul li img {
+	width: 57px;
+	margin-top: -6px;
+}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1480px) {
+  .container {
+    max-width: 1430px;
+  }
+  .single-left {
+	margin-left: 365px;
+}
+}
